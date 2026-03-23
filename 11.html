@@ -57,21 +57,5 @@
     });
     
     </script>
-    <script>
-window.onpopstate = function() {
-    window.location.href = "index.html";
-};
-</script>
-<script>
-document.addEventListener("keydown", function(event) {
-    const active = document.activeElement;
-    const isInput = active.tagName === "INPUT" || active.tagName === "TEXTAREA";
-
-    if (event.key === "Backspace" && !isInput) {
-        event.preventDefault();
-        window.location.href = "ma-page.html";
-    }
-});
-</script>
 </body>
 </html>
