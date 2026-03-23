@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallica Bar</title>
+    <link rel="stylesheet" href="./12345678910.css">
+    <link rel="icon" href="./stickers-logo-metallica.png" type="image/x-icon" sizes="16x16">
+</head>
+<body>
+    <header class="header13">
+        <h1 class="titre">Lifeblood</h1>
+    </header>
+    <section id="section13">
+    <div id="divimage" class="flex13">
+        <img id="img" src="./istockphoto-499688604-612x612.jpg" alt="image" height="505px" width="300px">
+    </div>
+    <section>
+    <div id="diving" class="flex13">
+        <h1 id="titredes">Ingrédients</h1>
+        <ul>
+            <li>Citron</li>
+            <li>Menthe glaciale</li>
+            <li>Eau pétillante</li>
+            <li>Rhum</li>
+        </ul>
+    </div>
+    <div id="divasso" class="flex13">
+        <h1 id="titredes">Associations</h1>
+        <p>Ce cocktail est fait pour l'apéritif et peut également accompagner un plat relevé ou un dessert.</p>
+    </div>
+    </section>
+    </section>
+    <footer>
+        <input id="prenom" placeholder="Prénom" type="text">
+        <input id="commentaire" placeholder="Spécificité" type="text">
+        <button class="commander" id="commander">Commander</button>
+    </footer>
+
+    <script>
+    document.getElementById('commander').addEventListener('click', async () => {
+        const prenom = document.getElementById('prenom').value.trim();
+        const commentaire = document.getElementById('commentaire').value.trim();
+
+        if (!prenom) {
+            alert("Veuillez entrer un prénom !");
+            return;
+        }
+
+        // Envoi au script PHP
+        const response = await fetch('commande13.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({ prenom, commentaire })
+        });
+
+        const result = await response.json();
+        alert(result.message);
+    });
+    </script>
+</body>
+</html>

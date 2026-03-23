@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallica Bar</title>
+    <link rel="stylesheet" href="./12345678910.css">
+    <link rel="icon" href="./stickers-logo-metallica.png" type="image/x-icon" sizes="16x16">
+</head>
+<body>
+    <header class="header14">
+        <h1 class="titre">Sad but true</h1>
+    </header>
+    <section id="section14">
+    <div id="divimage" class="flex14">
+        <img id="img" src="./istockphoto-499688604-612x612.jpg" alt="image" height="505px" width="300px">
+    </div>
+    <section>
+    <div id="diving" class="flex14">
+        <h1 id="titredes">Ingrédients</h1>
+        <ul>
+            <li>Rhum</li>
+            <li>Coca Cola</li>
+        </ul>
+    </div>
+    <div id="divasso" class="flex14">
+        <h1 id="titredes">Associations</h1>
+        <p>Ce cocktail est fait pour l'apéritif et peut également accompagner un plat.</p>
+    </div>
+    </section>
+    </section>
+    <footer>
+        <input id="prenom" placeholder="Prénom" type="text">
+        <input id="commentaire" placeholder="Spécificité" type="text">
+        <button class="commander" id="commander">Commander</button>
+    </footer>
+
+    <script>
+    document.getElementById('commander').addEventListener('click', async () => {
+        const prenom = document.getElementById('prenom').value.trim();
+        const commentaire = document.getElementById('commentaire').value.trim();
+
+        if (!prenom) {
+            alert("Veuillez entrer un prénom !");
+            return;
+        }
+
+        // Envoi au script PHP
+        const response = await fetch('commande14.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({ prenom, commentaire })
+        });
+
+        const result = await response.json();
+        alert(result.message);
+    });
+    </script>
+</body>
+</html>
