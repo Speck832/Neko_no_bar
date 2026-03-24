@@ -37,6 +37,9 @@ h4 {
 .actived .txt {
   opacity: 1;
 }
+.actived .links {
+  display: block;
+}
 
 .links {
   position: absolute;
