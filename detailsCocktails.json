@@ -80,30 +80,75 @@
     "title": "Ringo",
     "description": "Un cocktail à base de Rhum, pomme, miel et épices.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
+      "Pomme",
+      "Miel",
+      "Epices",
+      "Rhum épicé"
     ],
-    "association": "",
+    "association": "Ce cocktail est fait pour l'apéritif ou le dessert.",
     "image": ""
   },
   {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "name": "mepuru",
+    "title": "Mēpuru",
+    "description": "Un cocktail délicieux aux arômes de poire, pomme et érable.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
+      "Pomme",
+      "Poire",
+      "Sirop d'érable",
       "(Whisky)"
     ],
-    "association": "",
+    "association": "Ce cocktail est fait pour le dessert ou l'apéritif.",
     "image": ""
   },
   {
-    "name": "bambou",
-    "title": "Bambou",
+    "name": "yawarakai",
+    "title": "Yawarakai",
+    "description": "Un cocktail délicieux à l'amande, à la vanille et à la grenadine.",
+    "ingredients": [
+      "Lait d'amande",
+      "Vanille",
+      "Sirop de grenadine"
+    ],
+    "association": "Ce cocktail est fait pour le dessert.",
+    "image": ""
+  },
+  {
+    "name": "diabolo_sakura",
+    "title": "Diabolo Sakura",
+    "description": "Un cocktail délicieux au goût fruité et sucré.",
+    "ingredients": [
+      "Limonade",
+      "Sirop de grenadine"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif.",
+    "image": ""
+  },
+  {
+    "name": "diabolo_umi",
+    "title": "Diabolo Umi",
+    "description": "Un diabolo au goût glacial.",
+    "ingredients": [
+      "Limonade",
+      "Sirop de menthe glaciale"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
+    "image": ""
+  },
+  {
+    "name": "diabolo_shokusei",
+    "title": "Diabolo Shokusei",
+    "description": "Un diabolo très classique avec un nom... un peu moins classique.",
+    "ingredients": [
+      "Limonade",
+      "Sirop de menthe"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
+    "image": ""
+  },
+  {
+    "name": "diabolo_onsen",
+    "title": "Diabolo Onsen",
     "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
     "ingredients": [
       "Citron vert",
@@ -111,59 +156,7 @@
       "Eau pétillante",
       "(Whisky)"
     ],
-    "association": "",
-    "image": ""
-  },
-  {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
-    "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
-    ],
-    "association": "",
-    "image": ""
-  },
-  {
-    "name": "bambou",
-    "title": "Bambou",
-    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
-    "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
-    ],
-    "association": "",
-    "image": ""
-  },
-  {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
-    "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
-    ],
-    "association": "",
-    "image": ""
-  },
-  {
-    "name": "bambou",
-    "title": "Bambou",
-    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
-    "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
-    ],
-    "association": "",
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
     "image": ""
   },
   {
