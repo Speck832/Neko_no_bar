@@ -2,25 +2,33 @@ body {
   background-color: #d31f1f;
 }
 
-.header1 {
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: none;
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
   background-attachment: fixed;
   color: #fff;
   border-radius: 20px;
   bottom: 20px;
-  align-self: center;
   margin-bottom: 20px;
   transition: 1s;
 }
-.header1:hover {
+headerhover {
   transition: 1s;
   background-image: none;
+}
+
+#headerfuel {
+  background-image: url("./images/fond-texture-planche-bois-noir_53876-138962.jpg");
+}
+#headerfuel:hover {
   background-color: yellowgreen;
   color: #343b3d;
 }
+
 .header2 {
   padding-top: 30px;
   padding-bottom: 30px;

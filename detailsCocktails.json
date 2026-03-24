@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fuel",
+    "title": "Fuel",
+    "description": "Un cocktail énergisant pour les amateurs de sensations fortes.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
+    "image": "./images/Imageaprendre.jpg"
+  },
+  {
+    "name": "vo",
+    "title": "V.O.",
+    "description": "Un cocktail dans sa version... originale ! Non plus sérieusement, V.O. c'est pour Vodka Orange.",
+    "ingredients": [
+      "Vodka",
+      "Jus d'orange"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat chaud ou un dessert peu sucré.",
+    "image": "./images/ChatGPT Image 11 nov. 2025, 20_51_58.png"
+  }
+]
