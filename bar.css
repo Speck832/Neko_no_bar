@@ -24,17 +24,18 @@ h4 {
   flex-direction: column;
   align-items: center;
   transition: 1s;
+  margin-left: auto;
+  margin-right: auto;
 }
-.nav {
-  /* &:hover {
-    width: 360px;
-    height: 300px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    & .txt {
-      opacity: 1;
-    }
-  } */
+
+.actived {
+  width: 360px;
+  height: 300px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.actived .txt {
+  opacity: 1;
 }
 
 .links {
@@ -56,9 +57,7 @@ h4 {
 }
 
 #navs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -107,77 +106,113 @@ h4 {
   font-size: xx-large;
 }
 
-#Fuel:hover {
+.fuel {
   background-color: yellowgreen;
 }
-#Fuel:hover #a {
+.fuel #a {
   height: 150px;
   max-width: 150px;
 }
 
-#VO:hover {
+#fuel {
+  grid-row: 1;
+}
+
+.vo {
   background-color: orange;
 }
-#VO:hover #b {
+.vo #b {
   height: 150px;
   max-width: 150px;
 }
 
-#Guinness:hover {
+#vo {
+  grid-row: 2;
+}
+
+.guinness {
   background-color: rgb(65, 20, 0);
   color: white;
 }
-#Guinness:hover #c {
+.guinness #c {
   height: 150px;
   max-width: 150px;
 }
 
-#Bambou:hover {
+#guinness {
+  grid-row: 3;
+}
+
+.bambou {
   background-color: yellow;
 }
-#Bambou:hover #d {
+.bambou #d {
   height: 150px;
   max-width: 150px;
 }
 
-#Whiskas:hover {
+#bambou {
+  grid-row: 4;
+}
+
+.whiskas {
   background-color: rgb(143, 69, 0);
 }
-#Whiskas:hover #e {
+.whiskas #e {
   height: 150px;
   max-width: 150px;
 }
 
-#Mojito:hover {
+#whiskas {
+  grid-row: 5;
+}
+
+.mojito {
   background-color: rgb(0, 255, 0);
 }
-#Mojito:hover #f {
+.mojito #f {
   height: 150px;
   max-width: 150px;
 }
 
-#Monaco:hover {
+#mojito {
+  grid-row: 6;
+}
+
+.monaco {
   background-color: crimson;
 }
-#Monaco:hover #g {
+.monaco #g {
   height: 150px;
   max-width: 150px;
 }
 
-#Ringo:hover {
+#monaco {
+  grid-row: 7;
+}
+
+.ringo {
   background-color: sandybrown;
 }
-#Ringo:hover #i {
+.ringo #i {
   height: 150px;
   max-width: 150px;
 }
 
-#Mepuru:hover {
+#ringo {
+  grid-row: 8;
+}
+
+#Mepuru {
   background-color: orangered;
 }
-#Mepuru:hover #h {
+#Mepuru #h {
   height: 150px;
   max-width: 150px;
+}
+
+#Mepuru {
+  grid-row: 9;
 }
 
 #diabolo:hover {
@@ -200,36 +235,52 @@ h4 {
   background-color: rgb(0, 184, 129);
 }
 
-#Yawarakai:hover {
+.Yawarakai {
   background-color: wheat;
 }
-#Yawarakai:hover #j {
+.Yawarakai #j {
   height: 150px;
   max-width: 150px;
 }
 
-#lifeblood:hover {
+#Yawarakai {
+  grid-row: 10;
+}
+
+.lifeblood {
   background-color: #00ccff;
 }
-#lifeblood:hover #m {
+.lifeblood #m {
   height: 150px;
   max-width: 150px;
 }
 
-#Kora:hover {
+#Lifeblood {
+  grid-row: 15;
+}
+
+.Kora {
   background-color: royalblue;
 }
-#Kora:hover #n {
+.Kora #n {
   height: 150px;
   max-width: 150px;
 }
 
-#Nichibotsu:hover {
+#Kora {
+  grid-row: 16;
+}
+
+.Nichibotsu {
   background-color: rgb(255, 17, 0);
 }
-#Nichibotsu:hover #o {
+.Nichibotsu #o {
   height: 150px;
   max-width: 150px;
+}
+
+#Nichibotsu {
+  grid-row: 17;
 }
 
 #unforgivenii:hover {

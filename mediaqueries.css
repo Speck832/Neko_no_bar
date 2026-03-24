@@ -27,4 +27,15 @@
         margin-bottom: 37px;
     }
 
-} *//*# sourceMappingURL=mediaqueries.css.map */
+} */
+@media all and (min-width: 800px) {
+  #fuel, #vo {
+    grid-row: 1;
+  }
+  #guinness, #bambou {
+    grid-row: 2;
+  }
+  #whiskas, #mojito {
+    grid-row: 3;
+  }
+}/*# sourceMappingURL=mediaqueries.css.map */

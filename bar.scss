@@ -10,7 +10,7 @@ h4 {
   text-align: center;
 }
 .nav {
-    position: relative;
+  position: relative;
   background-color: #fff;
   border-style: solid;
   border-width: 1px;
@@ -22,24 +22,23 @@ h4 {
   flex-direction: column;
   align-items: center;
   transition: 1s;
-  &.active {
-    
+  margin-left: auto;
+  margin-right: auto;
+}
+.actived {
+  width: 360px;
+  height: 300px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  & .txt {
+    opacity: 1;
   }
-  /* &:hover {
-    width: 360px;
-    height: 300px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    & .txt {
-      opacity: 1;
-    }
-  } */
 }
 .links {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
 }
 .imagenav {
   height: 80px;
@@ -51,9 +50,7 @@ h4 {
   color: rgb(0, 0, 0);
 }
 #navs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -97,88 +94,96 @@ h4 {
 .titre {
   font-size: xx-large;
 }
-#Fuel {
-  &:hover {
-    background-color: yellowgreen;
-    & #a {
-      height: 150px;
-      max-width: 150px;
-    }
+.fuel {
+  background-color: yellowgreen;
+  & #a {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#VO {
-  &:hover {
-    background-color: orange;
-    & #b {
-      height: 150px;
-      max-width: 150px;
-    }
+#fuel {
+    grid-row: 1;
+}
+.vo {
+  background-color: orange;
+  & #b {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Guinness {
-  &:hover {
-    background-color: rgb(65, 20, 0);
-    color: white;
-    & #c {
-      height: 150px;
-      max-width: 150px;
-    }
+#vo {
+    grid-row: 2;
+}
+.guinness {
+  background-color: rgb(65, 20, 0);
+  color: white;
+  & #c {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Bambou {
-  &:hover {
-    background-color: yellow;
-    & #d {
-      height: 150px;
-      max-width: 150px;
-    }
+#guinness {
+    grid-row: 3;
+}
+.bambou {
+  background-color: yellow;
+  & #d {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Whiskas {
-  &:hover {
-    background-color: rgb(143, 69, 0);
-    & #e {
-      height: 150px;
-      max-width: 150px;
-    }
+#bambou {
+    grid-row: 4;
+}
+.whiskas {
+  background-color: rgb(143, 69, 0);
+  & #e {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Mojito {
-  //background-color: green;
-  &:hover {
-    background-color: rgb(0, 255, 0);
-    & #f {
-      height: 150px;
-      max-width: 150px;
-    }
+#whiskas {
+    grid-row: 5;
+}
+.mojito {
+  background-color: rgb(0, 255, 0);
+  & #f {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Monaco {
-  &:hover {
-    background-color: crimson;
-    & #g {
-      height: 150px;
-      max-width: 150px;
-    }
+#mojito {
+    grid-row: 6;
+}
+.monaco {
+  background-color: crimson;
+  & #g {
+    height: 150px;
+    max-width: 150px;
   }
 }
-#Ringo {
-  &:hover {
-    background-color: sandybrown;
-    & #i {
-      height: 150px;
-      max-width: 150px;
-    }
+#monaco {
+    grid-row: 7;
+}
+.ringo {
+  background-color: sandybrown;
+  & #i {
+    height: 150px;
+    max-width: 150px;
   }
+}
+#ringo {
+    grid-row: 8;
 }
 #Mepuru {
-  &:hover {
     background-color: orangered;
     & #h {
       height: 150px;
       max-width: 150px;
     }
-  }
+}
+#Mepuru {
+    grid-row: 9;
 }
 #diabolo {
   &:hover {
@@ -204,41 +209,45 @@ h4 {
     background-color: rgb(0, 184, 129);
   }
 }
-#Yawarakai {
-  &:hover {
+.Yawarakai {
     background-color: wheat;
     & #j {
       height: 150px;
       max-width: 150px;
     }
-  }
 }
-#lifeblood {
-  &:hover {
+#Yawarakai {
+    grid-row: 10;
+}
+.lifeblood {
     background-color: #00ccff;
     & #m {
       height: 150px;
       max-width: 150px;
     }
-  }
 }
-#Kora {
-  &:hover {
+#Lifeblood {
+    grid-row: 15;
+}
+.Kora {
     background-color: royalblue;
     & #n {
       height: 150px;
       max-width: 150px;
     }
-  }
 }
-#Nichibotsu {
-  &:hover {
+#Kora {
+    grid-row: 16;
+}
+.Nichibotsu {
     background-color: rgb(255, 17, 0);
     & #o {
       height: 150px;
       max-width: 150px;
     }
-  }
+}
+#Nichibotsu {
+    grid-row: 17;
 }
 #unforgivenii {
   &:hover {

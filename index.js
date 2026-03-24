@@ -1,4 +1,4 @@
-const body = document.getElementById("body");
+const body = document.body;
 const header = document.createElement("header");
 header.className = "header";
 const h1 = document.createElement("h1");
@@ -21,6 +21,10 @@ fetch("detailsCocktails.json")
         const divNav = document.createElement("div");
         divNav.id = cocktail.name;
         divNav.className = "nav";
+        divNav.addEventListener("click", () => {
+            document.querySelectorAll(".nav").forEach(el => el.className = "nav");
+            divNav.className = `nav actived ${divNav.id}`;
+        });
         const link = document.createElement("a");
         link.className = "links";
         link.href = `cocktail.html?name=${cocktail.name}`;
@@ -81,19 +85,8 @@ sousSection1.addEventListener("click", (e) => {
     if (!div) return;
 
     document.querySelectorAll(".nav").forEach(el => {
-        el.classList.remove("active");
+        el.classList.remove("actived");
     });
 
-    div.classList.add("active");
+    div.classList.add("actived");
 });
-/* const divNavs = document.getElementsByClassName("nav");
-divNavs.addEventListener("click", () => {
-
-    divNav.className = "nav.active";
-});
-divNavs.addEventListener("mouseenter", () => {
-    divNav.className = "nav.active";
-});
-divNavs.addEventListener("mouseleave", () => {
-    divNav.className = "nav";
-}); */
