@@ -29,7 +29,7 @@
 
 } */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 650px) {
     #fuel, #vo {
         grid-row: 1;
     }
@@ -38,5 +38,80 @@
     }
     #whiskas, #mojito {
         grid-row: 3;
+    }
+    #diabolo_sakura, #diabolo_umi {
+        grid-row: 4;
+    }
+    #diabolo_shokusei, #diabolo_onsen {
+        grid-row: 5;
+    }
+    #mepuru, #yawarakai {
+        grid-row: 6;
+    }
+    #lifeblood, #kora {
+        grid-row: 7;
+    }
+    #monaco, #nichibotsu {
+        grid-row: 8;
+    }
+    #ringo, #remon {
+        grid-row: 9;
+    }
+    #creamy-coffee {
+        grid-row: 10;
+    }
+}
+@media all and (min-width: 880px) {
+    #fuel, #vo, #guinness {
+        grid-row: 1;
+    }
+    #bambou, #whiskas, #mojito {
+        grid-row: 2;
+    }
+    #diabolo_sakura, #diabolo_umi, #diabolo_shokusei {
+        grid-row: 3;
+    }
+    #diabolo_onsen, #mepuru, #yawarakai {
+        grid-row: 4;
+    }
+    #lifeblood, #kora, #monaco {
+        grid-row: 5;
+    }
+    #nichibotsu, #ringo, #remon {
+        grid-row: 6;
+    }
+    #creamy_coffee {
+        grid-row: 7;
+    }
+}
+@media all and (min-width: 1150px) {
+    #fuel, #vo, #guinness, #bambou {
+        grid-row: 1;
+    }
+    #whiskas, #mojito, #diabolo_sakura, #diabolo_umi {
+        grid-row: 2;
+    }
+    #diabolo_shokusei, #diabolo_onsen, #mepuru, #yawarakai {
+        grid-row: 3;
+    }
+    #lifeblood, #kora, #monaco, #nichibotsu {
+        grid-row: 4;
+    }
+    #ringo, #remon, #creamy_coffee {
+        grid-row: 5;
+    }
+}
+@media all and (min-width: 1350px) {
+    #fuel, #vo, #guinness, #bambou, #whiskas {
+        grid-row: 1;
+    }
+    #mojito, #diabolo_sakura, #diabolo_umi, #diabolo_shokusei, #diabolo_onsen {
+        grid-row: 2;
+    }
+    #mepuru, #yawarakai, #lifeblood, #kora, #monaco {
+        grid-row: 3;
+    }
+    #nichibotsu, #ringo, #remon, #creamy_coffee {
+        grid-row: 4;
     }
 }
