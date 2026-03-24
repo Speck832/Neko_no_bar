@@ -43,30 +43,6 @@ fetch("detailsCocktails.json")
   })
   .catch((error) => console.error("Erreur :", error));
 section.appendChild(sousSection1);
-const sousSection2 = document.createElement("section");
-sousSection2.id = "cafesdelamaison";
-const divCafe = document.createElement("div");
-divCafe.id = "cafes";
-const linkCafe = document.createElement("a");
-linkCafe.href = "./l.html";
-divCafe.appendChild(linkCafe);
-const h4Cafe = document.createElement("h4");
-h4Cafe.className = "titrenav";
-h4Cafe.textContent = "Cafés de la maison";
-divCafe.appendChild(h4Cafe);
-const imgCafe = document.createElement("img");
-imgCafe.id = "l";
-imgCafe.className = "imagenav";
-imgCafe.src = "./images/stickers-logo-metallica.jpg";
-imgCafe.alt = "Cafés";
-divCafe.appendChild(imgCafe);
-const descCafe = document.createElement("p");
-descCafe.className = "txt";
-descCafe.id = "txtcaf";
-descCafe.textContent = "Divers cafés originaux.";
-divCafe.appendChild(descCafe);
-sousSection2.appendChild(divCafe);
-section.appendChild(sousSection2);
 body.appendChild(section);
 
 const divButton = document.createElement("div");
@@ -99,3 +75,25 @@ h3Footer.className = "titrejap";
 h3Footer.textContent = "いただきます！";
 footer.appendChild(h3Footer);
 body.appendChild(footer);
+
+sousSection1.addEventListener("click", (e) => {
+    const div = e.target.closest(".nav");
+    if (!div) return;
+
+    document.querySelectorAll(".nav").forEach(el => {
+        el.classList.remove("active");
+    });
+
+    div.classList.add("active");
+});
+/* const divNavs = document.getElementsByClassName("nav");
+divNavs.addEventListener("click", () => {
+
+    divNav.className = "nav.active";
+});
+divNavs.addEventListener("mouseenter", () => {
+    divNav.className = "nav.active";
+});
+divNavs.addEventListener("mouseleave", () => {
+    divNav.className = "nav";
+}); */
