@@ -16,11 +16,219 @@
     "name": "vo",
     "title": "V.O.",
     "description": "Un cocktail dans sa version... originale ! Non plus sérieusement, V.O. c'est pour Vodka Orange.",
-    "ingredients": [
-      "Vodka",
-      "Jus d'orange"
-    ],
+    "ingredients": ["Vodka", "Jus d'orange"],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat chaud ou un dessert peu sucré.",
     "image": "./images/ChatGPT Image 11 nov. 2025, 20_51_58.png"
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": ["Guinness", "Sirop de grenadine"],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner des grillades.",
+    "image": "./images/ChatGPT Image 11 nov. 2025, 20_48_04.png"
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Jus de banane",
+      "(Whisky)"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un dessert.",
+    "image": "./images/ChatGPT Image 11 nov. 2025, 20_55_32.png"
+  },
+  {
+    "name": "whiskas",
+    "title": "Whiskas",
+    "description": "Un cocktail pour les fans de chats ! (Vous en faites pas c'est du whisky coca pas de la patée).",
+    "ingredients": ["Whisky", "Coca-Cola"],
+    "association": "Ce cocktail est fait pour l'apéritif ou le plat",
+    "image": "./images/ChatGPT Image 11 nov. 2025, 21_05_25.png"
+  },
+  {
+    "name": "mojito",
+    "title": "Mojito",
+    "description": "Un cocktail délicieux avec des touches de citron vert et de menthe.",
+    "ingredients": [
+      "Rhum blanc",
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "Sucre de canne"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais ou des grillades.",
+    "image": "./images/ChatGPT Image 12 nov. 2025, 07_41_13.png"
+  },
+  {
+    "name": "monaco",
+    "title": "Monaco",
+    "description": "Un classique à base de grenadine, de limonade et de bière.",
+    "ingredients": [
+      "Sirop de grenadine",
+      "Bière (avec ou sans alcool)",
+      "Limonade"
+    ],
+    "association": "Ce cocktail est fait pour l'apéritif.",
+    "image": "./images/ChatGPT Image 12 nov. 2025, 07_48_51.png"
+  },
+  {
+    "name": "ringo",
+    "title": "Ringo",
+    "description": "Un cocktail à base de Rhum, pomme, miel et épices.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "bambou",
+    "title": "Bambou",
+    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
+  },
+  {
+    "name": "guinness",
+    "title": "Guinness",
+    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "ingredients": [
+      "Citron vert",
+      "Menthe fraîche",
+      "Eau pétillante",
+      "(Whisky)"
+    ],
+    "association": "",
+    "image": ""
   }
 ]

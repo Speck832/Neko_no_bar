@@ -2,6 +2,50 @@ const params = new URLSearchParams(window.location.search); // Récupération de
 const nameCocktail = params.get("name"); // Récupération de la valeur du paramètre "name" à partir des paramètres de l'URL
 const body = document.getElementById("body");
 
+// On crée et on affiche l'animation
+const divCocktail = document.createElement("div");
+divCocktail.className = "cocktail";
+const divLiquid = document.createElement("div");
+divLiquid.className = "liquid";
+const divIceCubes = document.createElement("div");
+divIceCubes.className = "ice-cubes";
+const divIceCube1 = document.createElement("div");
+divIceCube1.className = "ice-cube";
+const divIceCube2 = document.createElement("div");
+divIceCube2.className = "ice-cube";
+const divIceCube3 = document.createElement("div");
+divIceCube3.className = "ice-cube";
+divIceCubes.appendChild(divIceCube1);
+divIceCubes.appendChild(divIceCube2);
+divIceCubes.appendChild(divIceCube3);
+divCocktail.appendChild(divLiquid);
+divCocktail.appendChild(divIceCubes);
+const divLemon = document.createElement("div");
+divLemon.className = "lemon-slice";
+divCocktail.appendChild(divLemon);
+const divLeaves = document.createElement("div");
+divLeaves.className = "leaves";
+const divLeave1 = document.createElement("div");
+divLeave1.className = "leave leave-1";
+const divLeave2 = document.createElement("div");
+divLeave2.className = "leave leave-2";
+const divLeave3 = document.createElement("div");
+divLeave3.className = "leave leave-3";
+divLeaves.appendChild(divLeave1);
+divLeaves.appendChild(divLeave2);
+divLeaves.appendChild(divLeave3);
+divCocktail.appendChild(divLeaves);
+const divStraw = document.createElement("div");
+divStraw.className = "straw";
+divCocktail.appendChild(divStraw);
+const divStrawSurface = document.createElement("div");
+divStrawSurface.className = "straw-surface";
+divStraw.appendChild(divStrawSurface);
+const divShadow = document.createElement("div");
+divShadow.className = "shadow";
+divCocktail.appendChild(divShadow);
+body.appendChild(divCocktail);
+
 let result; // Déclaration de la variable "result" pour stocker l'objet trouvé dans le tableau
 fetch("detailsCocktails.json")
 .then((response) => response.json())
