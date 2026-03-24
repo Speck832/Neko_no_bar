@@ -22,6 +22,7 @@ fetch("detailsCocktails.json")
         divNav.id = cocktail.name;
         divNav.className = "nav";
         const link = document.createElement("a");
+        link.className = "links";
         link.href = `cocktail.html?name=${cocktail.name}`;
         divNav.appendChild(link);
         const h4 = document.createElement("h4");
