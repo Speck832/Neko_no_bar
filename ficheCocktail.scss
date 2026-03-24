@@ -9,7 +9,8 @@ header {
   padding-bottom: 30px;
   background-color: none;
   background-attachment: fixed;
-  color: #fff;
+  color: #d31f1f;
+  background-color: #fff;
   border-radius: 20px;
   bottom: 20px;
   //align-self: center;
@@ -21,137 +22,121 @@ header {
   }
 }
 #headerfuel {
-  background-image: url("./images/fond-texture-planche-bois-noir_53876-138962.jpg");
   &:hover {
     background-color: yellowgreen;
-    color: #343b3d;
+    color: #000000;
   }
 }
-.header {
-  &2 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: orange;
-      color: #343b3d;
-    }
+#headervo {
+  &:hover {
+    background-color: orange;
+    color: #000000;
   }
-  &3 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #3b1702;
+}
+#headerguinness {
+  &:hover {
+    background-color: #3b1702;
       color: #ffffff;
-    }
   }
-  &4 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #fffd40;
+}
+#headerbambou {
+  &:hover {
+    background-color: #fffd40;
       color: #000000;
-    }
   }
-  &5 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #84490f;
+}
+#headerwhiskas {
+  &:hover {
+    background-color: #84490f;
       color: #000000;
-    }
   }
-  &6 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #3a7d18;
+}
+#headermojito {
+  &:hover {
+    background-color: #3a7d18;
       color: #000000;
-    }
   }
-  &7 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #c7343f;
+}
+#headermonaco {
+  &:hover {
+    background-color: #c7343f;
       color: #000000;
-    }
   }
-  &8 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #e7a767;
+}
+#headerringo {
+  &:hover {
+    background-color: #e7a767;
       color: #000000;
-    }
   }
-  &9 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #e8571b;
+}
+#headermepuru {
+  &:hover {
+    background-color: #e8571b;
       color: #000000;
-    }
   }
-  &10 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #f0deb6;
+}
+#headeryawarakai {
+  &:hover {
+    background-color: #f0deb6;
       color: #000000;
-    }
   }
-  &11 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
-    color: #ff0000;
-    border-radius: 20px;
-    bottom: 20px;
-    align-self: center;
-    margin-bottom: 20px;
-    transition: 1s;
-    &:hover {
-      transition: 1s;
-      background-color: rgb(255, 144, 144);
+}
+#headerdiabolo_sakura {
+  &:hover {
+    background-color: rgb(255, 144, 144);
       color: #ffffff;
-    }
   }
-  &12 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #aa7b5b;
+}
+#headerdiabolo_umi {
+  &:hover {
+    background-color: rgb(46, 61, 196);
       color: #000000;
-    }
   }
-  &13 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #00ccff;
+}
+#headerdiabolo_shokusei {
+  &:hover {
+    background-color: rgb(12, 138, 6);
       color: #000000;
-    }
   }
-  &14 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: royalblue;
+}
+#headerdiabolo_onsen {
+  &:hover {
+    background-color: rgb(0, 184, 129);
       color: #000000;
-    }
   }
-  &15 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: rgb(255, 17, 0);
+}
+#headerlifeblood {
+  &:hover {
+    background-color: #00ccff;
       color: #000000;
-    }
   }
-  &16 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #edfeec;
+}
+#headerkora {
+  &:hover {
+    background-color: royalblue;
       color: #000000;
-    }
   }
-  &17 {
-    background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-    &:hover {
-      background-color: #edfefc;
+}
+#headernichibotsu {
+  &:hover {
+    background-color: rgb(255, 17, 0);
       color: #000000;
-    }
+  }
+}
+#headerremon {
+  &:hover {
+    background-color: #edfefc;
+      color: #000000;
+  }
+}
+#headercreamy_coffee {
+  &:hover {
+    background-color: #db8e6f;
+      color: #000000;
   }
 }
 .flex {
-  &1 {
+  &fuel {
     background-color: yellowgreen;
     padding: 20px;
     display: flex;
@@ -165,7 +150,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &2 {
+  &vo {
     background-color: orange;
     padding: 20px;
     display: flex;
@@ -179,7 +164,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &3 {
+  &guinness {
     background-color: #3b1702;
     color: #ffffff;
     padding: 20px;
@@ -194,7 +179,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &4 {
+  &bambou {
     background-color: #fffd40;
     color: #000000;
     padding: 20px;
@@ -209,7 +194,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &5 {
+  &whiskas {
     background-color: #84490f;
     color: #000000;
     padding: 20px;
@@ -224,7 +209,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &6 {
+  &mojito {
     background-color: #3a7d18;
     color: #000000;
     padding: 20px;
@@ -239,7 +224,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &7 {
+  &monaco {
     background-color: #c7343f;
     color: #000000;
     padding: 20px;
@@ -254,7 +239,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &8 {
+  &ringo {
     background-color: #e7a767;
     color: #000000;
     padding: 20px;
@@ -269,7 +254,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &9 {
+  &mepuru {
     background-color: #e8571b;
     color: #000000;
     padding: 20px;
@@ -284,7 +269,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &10 {
+  &yawarakai {
     background-color: #f0deb6;
     color: #000000;
     padding: 20px;
@@ -299,7 +284,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &11 {
+  &diabolo_sakura {
     background-color: rgb(255, 144, 144);
     color: #ffffff;
     padding: 20px;
@@ -314,8 +299,8 @@ header {
       transform: scale(1.1);
     }
   }
-  &12 {
-    background-color: #aa7b5b;
+  &diabolo_umi {
+    background-color: rgb(46, 61, 196);
     color: #000000;
     padding: 20px;
     display: flex;
@@ -329,7 +314,37 @@ header {
       transform: scale(1.1);
     }
   }
-  &13 {
+  &diabolo_shokusei {
+    background-color: rgb(12, 138, 6);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &diabolo_onsen {
+    background-color: rgb(0, 184, 129);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &lifeblood {
     background-color: #00ccff;
     color: #000000;
     padding: 20px;
@@ -344,7 +359,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &14 {
+  &kora {
     background-color: royalblue;
     color: #000000;
     padding: 20px;
@@ -359,7 +374,7 @@ header {
       transform: scale(1.1);
     }
   }
-  &15 {
+  &nichibotsu {
     background-color: rgb(255, 17, 0);
     color: #000000;
     padding: 20px;
@@ -374,8 +389,8 @@ header {
       transform: scale(1.1);
     }
   }
-  &16 {
-    background-color: #edfeec;
+  &remon {
+    background-color: #edfefc;
     color: #000000;
     padding: 20px;
     display: flex;
@@ -389,8 +404,8 @@ header {
       transform: scale(1.1);
     }
   }
-  &17 {
-    background-color: #edfefc;
+  &creamy_coffee {
+    background-color: #db8e6f;
     color: #000000;
     padding: 20px;
     display: flex;

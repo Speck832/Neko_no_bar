@@ -10,7 +10,8 @@ header {
   padding-bottom: 30px;
   background-color: none;
   background-attachment: fixed;
-  color: #fff;
+  color: #d31f1f;
+  background-color: #fff;
   border-radius: 20px;
   bottom: 20px;
   margin-bottom: 20px;
@@ -21,137 +22,102 @@ headerhover {
   background-image: none;
 }
 
-#headerfuel {
-  background-image: url("./images/fond-texture-planche-bois-noir_53876-138962.jpg");
-}
 #headerfuel:hover {
   background-color: yellowgreen;
-  color: #343b3d;
+  color: #000000;
 }
 
-.header2 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header2:hover {
+#headervo:hover {
   background-color: orange;
-  color: #343b3d;
+  color: #000000;
 }
-.header3 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header3:hover {
+
+#headerguinness:hover {
   background-color: #3b1702;
   color: #ffffff;
 }
-.header4 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header4:hover {
+
+#headerbambou:hover {
   background-color: #fffd40;
   color: #000000;
 }
-.header5 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header5:hover {
+
+#headerwhiskas:hover {
   background-color: #84490f;
   color: #000000;
 }
-.header6 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header6:hover {
+
+#headermojito:hover {
   background-color: #3a7d18;
   color: #000000;
 }
-.header7 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header7:hover {
+
+#headermonaco:hover {
   background-color: #c7343f;
   color: #000000;
 }
-.header8 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header8:hover {
+
+#headerringo:hover {
   background-color: #e7a767;
   color: #000000;
 }
-.header9 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header9:hover {
+
+#headermepuru:hover {
   background-color: #e8571b;
   color: #000000;
 }
-.header10 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header10:hover {
+
+#headeryawarakai:hover {
   background-color: #f0deb6;
   color: #000000;
 }
-.header11 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #fff;
-  color: #ff0000;
-  border-radius: 20px;
-  bottom: 20px;
-  align-self: center;
-  margin-bottom: 20px;
-  transition: 1s;
-}
-.header11:hover {
-  transition: 1s;
+
+#headerdiabolo_sakura:hover {
   background-color: rgb(255, 144, 144);
   color: #ffffff;
 }
-.header12 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header12:hover {
-  background-color: #aa7b5b;
+
+#headerdiabolo_umi:hover {
+  background-color: rgb(46, 61, 196);
   color: #000000;
 }
-.header13 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
+
+#headerdiabolo_shokusei:hover {
+  background-color: rgb(12, 138, 6);
+  color: #000000;
 }
-.header13:hover {
+
+#headerdiabolo_onsen:hover {
+  background-color: rgb(0, 184, 129);
+  color: #000000;
+}
+
+#headerlifeblood:hover {
   background-color: #00ccff;
   color: #000000;
 }
-.header14 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header14:hover {
+
+#headerkora:hover {
   background-color: royalblue;
   color: #000000;
 }
-.header15 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header15:hover {
+
+#headernichibotsu:hover {
   background-color: rgb(255, 17, 0);
   color: #000000;
 }
-.header16 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header16:hover {
-  background-color: #edfeec;
-  color: #000000;
-}
-.header17 {
-  background-image: url("./fond-texture-planche-bois-noir_53876-138962.jpg");
-}
-.header17:hover {
+
+#headerremon:hover {
   background-color: #edfefc;
   color: #000000;
 }
 
-.flex1 {
+#headercreamy_coffee:hover {
+  background-color: #db8e6f;
+  color: #000000;
+}
+
+.flexfuel {
   background-color: yellowgreen;
   padding: 20px;
   display: flex;
@@ -162,10 +128,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex1:hover {
+.flexfuel:hover {
   transform: scale(1.1);
 }
-.flex2 {
+.flexvo {
   background-color: orange;
   padding: 20px;
   display: flex;
@@ -176,10 +142,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex2:hover {
+.flexvo:hover {
   transform: scale(1.1);
 }
-.flex3 {
+.flexguinness {
   background-color: #3b1702;
   color: #ffffff;
   padding: 20px;
@@ -191,10 +157,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex3:hover {
+.flexguinness:hover {
   transform: scale(1.1);
 }
-.flex4 {
+.flexbambou {
   background-color: #fffd40;
   color: #000000;
   padding: 20px;
@@ -206,10 +172,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex4:hover {
+.flexbambou:hover {
   transform: scale(1.1);
 }
-.flex5 {
+.flexwhiskas {
   background-color: #84490f;
   color: #000000;
   padding: 20px;
@@ -221,10 +187,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex5:hover {
+.flexwhiskas:hover {
   transform: scale(1.1);
 }
-.flex6 {
+.flexmojito {
   background-color: #3a7d18;
   color: #000000;
   padding: 20px;
@@ -236,10 +202,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex6:hover {
+.flexmojito:hover {
   transform: scale(1.1);
 }
-.flex7 {
+.flexmonaco {
   background-color: #c7343f;
   color: #000000;
   padding: 20px;
@@ -251,10 +217,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex7:hover {
+.flexmonaco:hover {
   transform: scale(1.1);
 }
-.flex8 {
+.flexringo {
   background-color: #e7a767;
   color: #000000;
   padding: 20px;
@@ -266,10 +232,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex8:hover {
+.flexringo:hover {
   transform: scale(1.1);
 }
-.flex9 {
+.flexmepuru {
   background-color: #e8571b;
   color: #000000;
   padding: 20px;
@@ -281,10 +247,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex9:hover {
+.flexmepuru:hover {
   transform: scale(1.1);
 }
-.flex10 {
+.flexyawarakai {
   background-color: #f0deb6;
   color: #000000;
   padding: 20px;
@@ -296,10 +262,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex10:hover {
+.flexyawarakai:hover {
   transform: scale(1.1);
 }
-.flex11 {
+.flexdiabolo_sakura {
   background-color: rgb(255, 144, 144);
   color: #ffffff;
   padding: 20px;
@@ -311,11 +277,11 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex11:hover {
+.flexdiabolo_sakura:hover {
   transform: scale(1.1);
 }
-.flex12 {
-  background-color: #aa7b5b;
+.flexdiabolo_umi {
+  background-color: rgb(46, 61, 196);
   color: #000000;
   padding: 20px;
   display: flex;
@@ -326,10 +292,40 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex12:hover {
+.flexdiabolo_umi:hover {
   transform: scale(1.1);
 }
-.flex13 {
+.flexdiabolo_shokusei {
+  background-color: rgb(12, 138, 6);
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+.flexdiabolo_shokusei:hover {
+  transform: scale(1.1);
+}
+.flexdiabolo_onsen {
+  background-color: rgb(0, 184, 129);
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+.flexdiabolo_onsen:hover {
+  transform: scale(1.1);
+}
+.flexlifeblood {
   background-color: #00ccff;
   color: #000000;
   padding: 20px;
@@ -341,10 +337,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex13:hover {
+.flexlifeblood:hover {
   transform: scale(1.1);
 }
-.flex14 {
+.flexkora {
   background-color: royalblue;
   color: #000000;
   padding: 20px;
@@ -356,10 +352,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex14:hover {
+.flexkora:hover {
   transform: scale(1.1);
 }
-.flex15 {
+.flexnichibotsu {
   background-color: rgb(255, 17, 0);
   color: #000000;
   padding: 20px;
@@ -371,25 +367,10 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex15:hover {
+.flexnichibotsu:hover {
   transform: scale(1.1);
 }
-.flex16 {
-  background-color: #edfeec;
-  color: #000000;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  border-radius: 10px;
-  transition: all ease-in-out 0.3s;
-}
-.flex16:hover {
-  transform: scale(1.1);
-}
-.flex17 {
+.flexremon {
   background-color: #edfefc;
   color: #000000;
   padding: 20px;
@@ -401,7 +382,22 @@ headerhover {
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
 }
-.flex17:hover {
+.flexremon:hover {
+  transform: scale(1.1);
+}
+.flexcreamy_coffee {
+  background-color: #db8e6f;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+.flexcreamy_coffee:hover {
   transform: scale(1.1);
 }
 
