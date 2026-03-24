@@ -1,251 +1,296 @@
 body {
-    background-color: #d31f1f;
-    background-attachment: fixed;
-    background-size: cover;
-    cursor: url('./BlueToGreenPointer.cur'), auto;
+  background-color: #d31f1f;
+  background-attachment: fixed;
+  background-size: cover;
+  cursor: url("./BlueToGreenPointer.cur"), auto;
+}
+h1,
+h3,
+h4 {
+  text-align: center;
 }
 .nav {
-    background-color: #fff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(255, 0, 0);
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: 1s;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 0, 0);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  &:hover {
+    width: 360px;
+    height: 300px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    & .txt {
+      opacity: 1;
+    }
+  }
 }
 .imagenav {
-    height: 80px;
-    max-width:80px;
-    transition: 1s;
-    cursor: url('./BlueToGreenLinkSelect.cur'),auto;
+  height: 80px;
+  max-width: 80px;
+  transition: 1s;
+  cursor: url("./BlueToGreenLinkSelect.cur"), auto;
 }
 .titrenav {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 #navs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.nav:hover {
-    width: 360px;
-    height: 300px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .txt {
-    opacity: 0;
-    transition: 1s;
-}
-
-.nav:hover .txt {
-    opacity: 1;
+  opacity: 0;
+  transition: 1s;
 }
 .header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
-    color:red;
-    border-radius: 14px;
-    bottom: 20px;
-    transition: 1s;
-    margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  color: red;
+  border-radius: 14px;
+  bottom: 20px;
+  transition: 1s;
+  margin-bottom: 50px;
+  &:hover {
+    color: #fff;
+    background-color: #d31f1f;
+    & body {
+      background-color: #fff;
+    }
+  }
 }
 .footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
-    color: red;
-    border-radius: 14px;
-    bottom: 20px;
-    transition: 1s;
-    margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  color: red;
+  border-radius: 14px;
+  bottom: 20px;
+  transition: 1s;
+  margin-top: 50px;
+  &:hover {
+    color: #fff;
+    background-color: #d31f1f;
+  }
 }
 .titre {
-    font-size: xx-large;
+  font-size: xx-large;
 }
-.header:hover {
-    color: #fff;
-    background-color: #d31f1f;
-}
-.footer:hover {
-    color: #fff;
-    background-color: #d31f1f;
-}
-.header:hover body {
-    background-color: #fff;
-}
-#Fuel:hover {
+#Fuel {
+  &:hover {
     background-color: yellowgreen;
+    & #a {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#VO:hover {
+#VO {
+  &:hover {
     background-color: orange;
+    & #b {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Guinness:hover {
+#Guinness {
+  &:hover {
     background-color: rgb(65, 20, 0);
     color: white;
+    & #c {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Bambou:hover {
+#Bambou {
+  &:hover {
     background-color: yellow;
+    & #d {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Whiskas:hover {
+#Whiskas {
+  &:hover {
     background-color: rgb(143, 69, 0);
+    & #e {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Mojito:hover {
-    background-color: green;
+#Mojito {
+  background-color: green;
+  &:hover {
+    background-color: rgb(0, 255, 0);
+    & #f {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Monaco:hover {
+#Monaco {
+  &:hover {
     background-color: crimson;
+    & #g {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Ringo:hover {
+#Ringo {
+  &:hover {
     background-color: sandybrown;
+    & #i {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Mepuru:hover {
+#Mepuru {
+  &:hover {
     background-color: orangered;
+    & #h {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#diabolo:hover {
+#diabolo {
+  &:hover {
     background-color: rgb(255, 144, 144);
+    & #k {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#diabolou:hover {
+#diabolou {
+  &:hover {
     background-color: rgb(46, 61, 196);
+  }
 }
-#diaboloh:hover {
+#diaboloh {
+  &:hover {
     background-color: rgb(12, 138, 6);
+  }
 }
-#diaboloo:hover {
+#diaboloo {
+  &:hover {
     background-color: rgb(0, 184, 129);
+  }
 }
-#lifeblood:hover {
+#Yawarakai {
+  &:hover {
+    background-color: wheat;
+    & #j {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
+}
+#lifeblood {
+  &:hover {
     background-color: #00ccff;
+    & #m {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Kora:hover {
+#Kora {
+  &:hover {
     background-color: royalblue;
+    & #n {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#Nichibotsu:hover {
+#Nichibotsu {
+  &:hover {
     background-color: rgb(255, 17, 0);
+    & #o {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#unforgivenii:hover {
+#unforgivenii {
+  &:hover {
     background-color: rgb(233, 255, 236);
+    & #p {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
-#unforgiveniii:hover {
+#unforgiveniii {
+  &:hover {
     background-color: rgb(233, 255, 254);
+    & #q {
+      height: 150px;
+      max-width: 150px;
+    }
+  }
 }
 #Guinness2 {
-    color: black;
-    transition: 1s;
-}
-#Guinness:hover #Guinness2 {
+  color: black;
+  transition: 1s;
+  &:hover #Guinness2 {
     color: white;
-}
-#Yawarakai:hover {
-    background-color: wheat;
-}
-#Fuel:hover #a {
-    height: 150px;
-    max-width: 150px;
-}
-#VO:hover #b {
-    height: 150px;
-    max-width: 150px;
-}
-#Guinness:hover #c {
-    height: 150px;
-    max-width: 150px;
-}
-#Bambou:hover #d {
-    height: 150px;
-    max-width: 150px;
-}
-#Whiskas:hover #e {
-    height: 150px;
-    max-width: 150px;
-}
-#Mojito:hover #f {
-    height: 150px;
-    max-width: 150px;
-}
-#Monaco:hover #g {
-    height: 150px;
-    max-width: 150px;
-}
-#Mepuru:hover #h {
-    height: 150px;
-    max-width: 150px;
-}
-#Ringo:hover #i {
-    height: 150px;
-    max-width: 150px;
-}
-#Yawarakai:hover #j {
-    height: 150px;
-    max-width: 150px;
-}
-#diabolo:hover #k {
-    height: 150px;
-    max-width: 150px;
-}
-#lifeblood:hover #m {
-    height: 150px;
-    max-width: 150px;
-}
-#Kora:hover #n {
-    height: 150px;
-    max-width: 150px;
-}
-#Nichibotsu:hover #o {
-    height: 150px;
-    max-width: 150px;
-}
-#unforgivenii:hover #p {
-    height: 150px;
-    max-width: 150px;
-}
-#unforgiveniii:hover #q {
-    height: 150px;
-    max-width: 150px;
+  }
 }
 #cafes {
-    background-color: rgb(255, 255, 255);
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: 1s;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: #ff0000;
-}
-#cafes:hover {
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #ff0000;
+  text-align: center;
+  &:hover {
     width: 360px;
     height: 300px;
-    background-color:#ffe0cc;
+    background-color: #ffe0cc;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-}
-#cafes:hover #l {
-    height: 150px;
-    max-width: 150px;
-}
-#cafes:hover #txtcaf {
-    opacity: 1;
+    & #l {
+      height: 150px;
+      max-width: 150px;
+    }
+    & #txtcaf {
+      opacity: 1;
+    }
+  }
 }
 #cafesdelamaison {
-    justify-self: center;
-    align-self: center;
-    margin-top: 20px;
+  justify-self: center;
+  align-self: center;
+  margin-top: 20px;
 }
 #button {
-    margin: 20px;
+  margin: 20px;
+  text-align: center;
 }
 #adminBtn {
   background-color: black;
@@ -253,13 +298,12 @@ body {
   border: 2px solid #fff;
   padding: 8px 16px;
   font-size: 1rem;
-  cursor: url('./BlueToGreenLinkSelect.cur'),auto;
+  cursor: url("./BlueToGreenLinkSelect.cur"), auto;
   transition: 0.3s;
   margin-top: 10px;
-}
-
-#adminBtn:hover {
-  background-color: #444;
+  &:hover {
+    background-color: #444;
+  }
 }
 
 .admin-control {
@@ -268,11 +312,11 @@ body {
   border: 1px solid #999;
   padding: 6px 10px;
   border-radius: 4px;
-  cursor: url('./BlueToGreenLinkSelect.cur'),auto;
+  cursor: url("./BlueToGreenLinkSelect.cur"), auto;
   transition: 0.3s;
-}
-.admin-control:hover {
-  background-color: #555;
+  &:hover {
+    background-color: #555;
+  }
 }
 .admin-global {
   position: fixed;
@@ -285,15 +329,16 @@ body {
   padding: 12px 18px;
   font-size: 1rem;
   font-weight: bold;
-  cursor: url('./BlueToGreenLinkSelect.cur'),auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  cursor: url("./BlueToGreenLinkSelect.cur"), auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
   z-index: 999;
-}
-.admin-global:hover {
-  background-color: #00aa00;
+  &:hover {
+    background-color: #00aa00;
+  }
 }
 #liste {
+  text-align: center;
   align-self: center;
   justify-self: center;
   display: flex;
@@ -304,19 +349,19 @@ body {
   transition: 1s;
   border-color: gray;
   -webkit-box-shadow: 2px 4px 9px 0px rgba(64, 64, 64, 1);
--moz-box-shadow: 2px 4px 9px 0px rgba(64, 64, 64, 1);
-box-shadow: 2px 4px 9px 0px rgba(64, 64, 64, 1);
+  -moz-box-shadow: 2px 4px 9px 0px rgba(64, 64, 64, 1);
+  box-shadow: 2px 4px 9px 0px rgba(64, 64, 64, 1);
   &:hover {
     -webkit-box-shadow: inset 2px 4px 9px 0px rgba(64, 64, 64, 1);
--moz-box-shadow: inset 2px 4px 9px 0px rgba(64, 64, 64, 1);
-box-shadow: inset 2px 4px 9px 0px rgba(64, 64, 64, 1);
+    -moz-box-shadow: inset 2px 4px 9px 0px rgba(64, 64, 64, 1);
+    box-shadow: inset 2px 4px 9px 0px rgba(64, 64, 64, 1);
     background-color: #000;
     color: white;
     transform: translateY(10px);
-    cursor: url('./BlueToGreenLinkSelect.cur'),auto;
+    cursor: url("./BlueToGreenLinkSelect.cur"), auto;
   }
 }
 #dcr {
   text-decoration: none;
-  cursor: url('./BlueToGreenLinkSelect.cur'),auto;
+  cursor: url("./BlueToGreenLinkSelect.cur"), auto;
 }
