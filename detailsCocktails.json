@@ -10,7 +10,7 @@
       "(Whisky)"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
-    "image": "./images/Imageaprendre.jpg"
+    "image": "./images/fuel.jpg"
   },
   {
     "name": "vo",
@@ -18,7 +18,7 @@
     "description": "Un cocktail dans sa version... originale ! Non plus sérieusement, V.O. c'est pour Vodka Orange.",
     "ingredients": ["Vodka", "Jus d'orange"],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat chaud ou un dessert peu sucré.",
-    "image": "./images/ChatGPT Image 11 nov. 2025, 20_51_58.png"
+    "image": "./images/vo.png"
   },
   {
     "name": "guinness",
@@ -26,7 +26,7 @@
     "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
     "ingredients": ["Guinness", "Sirop de grenadine"],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner des grillades.",
-    "image": "./images/ChatGPT Image 11 nov. 2025, 20_48_04.png"
+    "image": "./images/guinness.png"
   },
   {
     "name": "bambou",
@@ -39,7 +39,7 @@
       "(Whisky)"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un dessert.",
-    "image": "./images/ChatGPT Image 11 nov. 2025, 20_55_32.png"
+    "image": "./images/bambou.png"
   },
   {
     "name": "whiskas",
@@ -47,7 +47,7 @@
     "description": "Un cocktail pour les fans de chats ! (Vous en faites pas c'est du whisky coca pas de la patée).",
     "ingredients": ["Whisky", "Coca-Cola"],
     "association": "Ce cocktail est fait pour l'apéritif ou le plat",
-    "image": "./images/ChatGPT Image 11 nov. 2025, 21_05_25.png"
+    "image": "./images/whiskas.png"
   },
   {
     "name": "mojito",
@@ -61,7 +61,7 @@
       "Sucre de canne"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais ou des grillades.",
-    "image": "./images/ChatGPT Image 12 nov. 2025, 07_41_13.png"
+    "image": "./images/mojito.png"
   },
   {
     "name": "monaco",
@@ -73,7 +73,7 @@
       "Limonade"
     ],
     "association": "Ce cocktail est fait pour l'apéritif.",
-    "image": "./images/ChatGPT Image 12 nov. 2025, 07_48_51.png"
+    "image": "./images/monaco.png"
   },
   {
     "name": "ringo",
@@ -86,7 +86,7 @@
       "Rhum épicé"
     ],
     "association": "Ce cocktail est fait pour l'apéritif ou le dessert.",
-    "image": ""
+    "image": "./images/ringo.png"
   },
   {
     "name": "mepuru",
@@ -99,7 +99,7 @@
       "(Whisky)"
     ],
     "association": "Ce cocktail est fait pour le dessert ou l'apéritif.",
-    "image": ""
+    "image": "./images/mepuru.png"
   },
   {
     "name": "yawarakai",
@@ -111,7 +111,7 @@
       "Sirop de grenadine"
     ],
     "association": "Ce cocktail est fait pour le dessert.",
-    "image": ""
+    "image": "./images/yawarakai.png"
   },
   {
     "name": "diabolo_sakura",
@@ -122,7 +122,7 @@
       "Sirop de grenadine"
     ],
     "association": "Ce cocktail est fait pour l'apéritif.",
-    "image": ""
+    "image": "./images/diabolo_sakura.png"
   },
   {
     "name": "diabolo_umi",
@@ -133,7 +133,7 @@
       "Sirop de menthe glaciale"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
-    "image": ""
+    "image": "./images/diabolo_umi.png"
   },
   {
     "name": "diabolo_shokusei",
@@ -144,84 +144,75 @@
       "Sirop de menthe"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
-    "image": ""
+    "image": "./images/diabolo_shokusei.png"
   },
   {
     "name": "diabolo_onsen",
     "title": "Diabolo Onsen",
-    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "description": "Un diabolo aux saveurs exotiques.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
+      "Limonade",
+      "Sirop de kiwi"
     ],
     "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
-    "image": ""
+    "image": "./images/diabolo_onsen.png"
   },
   {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "name": "lifeblood",
+    "title": "Lifeblood",
+    "description": "Un cocktail délicieux aux goûts et à l'aspect déboussolants.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
+      "Citron",
+      "Menthe glaciale",
       "Eau pétillante",
-      "(Whisky)"
+      "Rhum"
     ],
-    "association": "",
-    "image": ""
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat relevé ou un dessert.",
+    "image": "./images/lifeblood.png"
   },
   {
-    "name": "bambou",
-    "title": "Bambou",
-    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "name": "kora",
+    "title": "Kōra",
+    "description": "Un grand classique qui passe toujours bien.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
+      "Rhum",
+      "Coca-Cola"
     ],
-    "association": "",
-    "image": ""
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat.",
+    "image": "./images/kora.png"
   },
   {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "name": "nichibotsu",
+    "title": "Nichibotsu",
+    "description": "Un classique très apprécié.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
+      "Orangina",
+      "Sirop de grenadine"
     ],
-    "association": "",
-    "image": ""
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais.",
+    "image": "./images/nichibotsu.png"
   },
   {
-    "name": "bambou",
-    "title": "Bambou",
-    "description": "Un cocktail signature du bar, qui revient en force avec ses arômes de banane et de citron vert !",
+    "name": "remon",
+    "title": "Remon",
+    "description": "Un cocktail revigorant et sans sucre.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
       "Eau pétillante",
-      "(Whisky)"
+      "Citron"
     ],
-    "association": "",
-    "image": ""
+    "association": "Ce cocktail est fait pour l'apéritif et peut également accompagner un plat frais ou un dessert pas trop relevé.",
+    "image": "./images/remon.png"
   },
   {
-    "name": "guinness",
-    "title": "Guinness",
-    "description": "Un cocktail délicieux avec des touches de grenadine dans une bonne Guinness.",
+    "name": "creamy_coffee",
+    "title": "Creamy Coffee",
+    "description": "Un cocktail revigorant et sans sucre.",
     "ingredients": [
-      "Citron vert",
-      "Menthe fraîche",
-      "Eau pétillante",
-      "(Whisky)"
+      "Café",
+      "Chantilly",
+      "Vanille"
     ],
-    "association": "",
-    "image": ""
+    "association": "Ce café est fait pour finir sur une note sucrée.",
+    "image": "./images/creamy_coffee.jpg"
   }
 ]
