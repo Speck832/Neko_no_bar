@@ -60,7 +60,7 @@ body.appendChild(divButton);
 const divCommandes = document.createElement("div");
 const linkCommandes = document.createElement("a");
 linkCommandes.id = "dcr";
-linkCommandes.href = "./liste_commandes.html";
+linkCommandes.href = "./liste_commandes.php";
 const buttonCommandes = document.createElement("button");
 buttonCommandes.id = "liste";
 buttonCommandes.textContent = "Liste des commandes";

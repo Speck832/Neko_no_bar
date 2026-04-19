@@ -25,7 +25,8 @@ if (!is_array($data)) {
 }
 
 // Construit la valeur Fuel-<commentaire>
-$valeur = 'Fuel';
+$name = isset($_GET['name']) ? trim($_GET['name']) : 'Fuel';
+$valeur = $name;
 if ($commentaire !== '') {
     $valeur .= '-' . $commentaire;
 }

@@ -151,7 +151,7 @@ function commander() {
         }
 
         // Envoi au script PHP
-        const response = await fetch('commande.php', {
+        const response = await fetch(`commande.php?name=${encodeURIComponent(nameCocktail)}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: new URLSearchParams({ prenom, commentaire })
